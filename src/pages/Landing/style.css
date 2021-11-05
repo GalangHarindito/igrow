@@ -1,0 +1,26 @@
+.landing {
+  padding: 1rem;
+  
+}
+
+.landing > h3 {
+  text-align: center;
+  padding: 2rem 0;
+
+}
+
+.landing > section {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 700px) {
+  .landing > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
