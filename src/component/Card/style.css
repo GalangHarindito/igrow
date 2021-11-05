@@ -34,7 +34,7 @@
 }
 
 .card-container > div:nth-child(1) {
-  background-color: red;
+  background-color: #fff;
   padding: 1rem;
   background-size: cover;
 }
