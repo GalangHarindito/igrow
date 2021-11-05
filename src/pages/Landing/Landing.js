@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Card from "../../component/Card";
 import axios from "axios";
 import "./style.css";
@@ -34,7 +34,6 @@ export default function Landing() {
     <section className='landing'>
       <h3>Find Your Friends</h3>
       {loading ? <LoadingCard data={state} /> : <Card data={state} />}
-     
       <section>
         <Button
           className='find'
@@ -42,14 +41,6 @@ export default function Landing() {
           onClick={() => fetchApi()}
         />
       </section>
-    </section>
-  );
-}
-
-function Loading() {
-  return (
-    <section className='loading'>
-      <h1>test</h1>
     </section>
   );
 }
