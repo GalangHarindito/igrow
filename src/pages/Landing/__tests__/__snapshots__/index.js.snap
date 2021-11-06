@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Landing render 1`] = `
+<section
+  className="landing"
+>
+  <h3>
+    Find Your Friends
+  </h3>
+  <Card
+    data={Array []}
+  />
+  <section>
+    <Button
+      className="find"
+      label="Let's Find"
+      onClick={[Function]}
+    />
+  </section>
+</section>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/component/Card render 1`] = `
+<section
+  className="card-loading"
+>
+  <section
+    className="card-loading-container"
+  >
+    <div>
+      <div
+        className="card-loading-image"
+      />
+    </div>
+    <div />
+    <div>
+      <div
+        className="name-loading"
+      />
+      <div
+        className="phone-loading"
+      />
+      <div
+        className="location-loading"
+      />
+    </div>
+  </section>
+  <section
+    className="card-loading-container"
+  >
+    <div>
+      <div
+        className="card-loading-image"
+      />
+    </div>
+    <div />
+    <div>
+      <div
+        className="name-loading"
+      />
+      <div
+        className="phone-loading"
+      />
+      <div
+        className="location-loading"
+      />
+    </div>
+  </section>
+</section>
+`;

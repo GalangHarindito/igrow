@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/component/Card render 1`] = `
+<section
+  className="card"
+>
+  <section
+    className="card-container"
+  >
+    <div
+      style={
+        Object {
+          "backgroundImage": "url(background.png)",
+        }
+      }
+    >
+      <div
+        className="card-image"
+        style={
+          Object {
+            "backgroundImage": "url(test)",
+          }
+        }
+      />
+    </div>
+    <div />
+    <div>
+      <p
+        className="name"
+      >
+         
+      </p>
+      <p
+        className="phone"
+      >
+        test
+      </p>
+      <p
+        className="location"
+      >
+        test
+         - 
+        test
+      </p>
+    </div>
+  </section>
+  <section
+    className="card-container"
+  >
+    <div
+      style={
+        Object {
+          "backgroundImage": "url(background.png)",
+        }
+      }
+    >
+      <div
+        className="card-image"
+        style={
+          Object {
+            "backgroundImage": "url(test)",
+          }
+        }
+      />
+    </div>
+    <div />
+    <div>
+      <p
+        className="name"
+      >
+         
+      </p>
+      <p
+        className="phone"
+      >
+        test
+      </p>
+      <p
+        className="location"
+      >
+        test
+         - 
+        test
+      </p>
+    </div>
+  </section>
+</section>
+`;
