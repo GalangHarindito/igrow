@@ -11,11 +11,6 @@ export default function Landing() {
 
   const fetchApi = () => {
     setLoading(true);
-    //const options = {
-    //  method: "GET",
-    //  url: `https://randomuser.me/api/?results=2`,
-    //  headers: {},
-    //};
 
     axios.get(`https://randomuser.me/api/?results=2`)
       .then((res) => {
@@ -23,10 +18,6 @@ export default function Landing() {
         setState(res.data.results);
       })
       .catch((err) => {
-        //if(status === 401){
-        //  window.location.href = '/login'
-        //}
-        //const messageStatus = status > 401 && status <= 500 ? 'Sedang ada masalah, silahkan refresh halaman' : message;
       });
   };
 

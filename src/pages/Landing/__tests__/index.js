@@ -1,6 +1,6 @@
 import React from 'react';
 import ShallowRenderer from 'react-test-renderer/shallow';
-import Landing, { fetchApi } from '../Landing';
+import Landing, { fetchApi, fetchUsers } from '../Landing';
 import axios from 'axios';
  
 jest.mock('axios');
@@ -14,7 +14,7 @@ describe('src/pages/Landing', () => {
   });
 
   test('fetch', () => {
-    const fetchApi = jest.fn().mockImplementation(() => Promise.resolve());;
+    const fetchUsers = jest.fn().mockImplementation(() => Promise.resolve());;
     const data = [
       {
         name : 'test',
@@ -33,7 +33,8 @@ describe('src/pages/Landing', () => {
     ];
 
     axios.get.mockResolvedValue(data);
-    return fetchApi().then(data => expect(data).toEqual(data));
+    
+    return fetchUsers().then(data => expect(data).toEqual(data));
   });
 
 
