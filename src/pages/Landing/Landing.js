@@ -11,13 +11,13 @@ export default function Landing() {
 
   const fetchApi = () => {
     setLoading(true);
-    const options = {
-      method: "GET",
-      url: `https://randomuser.me/api/?results=2`,
-      headers: {},
-    };
+    //const options = {
+    //  method: "GET",
+    //  url: `https://randomuser.me/api/?results=2`,
+    //  headers: {},
+    //};
 
-    axios(options)
+    axios.get(`https://randomuser.me/api/?results=2`)
       .then((res) => {
         setLoading(false);
         setState(res.data.results);
