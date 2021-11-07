@@ -13,6 +13,7 @@ exports[`src/pages/Landing render 1`] = `
   <section>
     <Button
       className="find"
+      isLoading={false}
       label="Let's Find"
       onClick={[Function]}
     />

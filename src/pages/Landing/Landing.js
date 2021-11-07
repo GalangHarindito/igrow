@@ -29,6 +29,7 @@ export default function Landing() {
         <Button
           className='find'
           label="Let's Find"
+          isLoading={loading}
           onClick={() => fetchApi()}
         />
       </section>
